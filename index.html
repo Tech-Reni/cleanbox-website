@@ -176,32 +176,21 @@
     <section id="gallery" class="section gallery">
         <div class="container">
             <div class="section-header center">
-                <h2>Before & After — Recent Projects</h2>
-                <p>Photos from recently completed building cleanings showcasing transformative results.</p>
+                <h2>Gallery — Recent Projects</h2>
+                <p>Photos from recently completed building cleanings and fumigation services showcasing our professional work.</p>
                 <div class="line mx-auto"></div>
             </div>
 
-            <div class="gallery-grid">
-                <div class="gallery-card">
-                    <div class="image-pair">
-                        <img src="images/before1.jpeg" alt="Before — Building 1" data-full="images/before1.jpg">
-                        <img src="images/after1.jpeg" alt="After — Building 1" data-full="images/after1.jpg">
-                    </div>
-                </div>
+            <!-- Gallery Filter (Optional) -->
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="before-after">Before & After</button>
+                <button class="filter-btn" data-filter="completed">Completed Work</button>
+            </div>
 
-                <div class="gallery-card">
-                    <div class="image-pair">
-                        <img src="images/before2.jpeg" alt="Before — Building 2" data-full="images/before2.jpg">
-                        <img src="images/after2.jpeg" alt="After — Building 2" data-full="images/after2.jpg">
-                    </div>
-                </div>
-
-                <div class="gallery-card">
-                    <div class="image-pair">
-                        <img src="images/before3.jpeg" alt="Before — Building 3" data-full="images/before3.jpg">
-                        <img src="images/after3.jpeg" alt="After — Building 3" data-full="images/after3.jpg">
-                    </div>
-                </div>
+            <!-- Gallery Grid -->
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Gallery items will be dynamically loaded here -->
             </div>
         </div>
     </section>
