@@ -36,7 +36,6 @@ const galleryImages = [
     { name: 'Project 24', src: 'images/WhatsApp Image 2026-02-14 at 1.25.53 PM.jpeg', category: 'completed' },
     { name: 'Project 25', src: 'images/WhatsApp Image 2026-02-14 at 1.25.54 PM.jpeg', category: 'completed' },
     { name: 'Project 26', src: 'images/WhatsApp Image 2026-02-14 at 1.25.55 PM.jpeg', category: 'completed' },
-    { name: 'Project 27', src: 'images/WhatsApp Image 2026-02-14 at 1.25.57 PM.jpeg', category: 'completed' },
 ];
 
 /* ========================================
